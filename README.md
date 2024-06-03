@@ -1,5 +1,3 @@
-### Small-Flask-App README
-
 # Small-Flask-App
 
 A little Flask app with two API endpoints. Using this space almost like a diary for my Flask learning.
