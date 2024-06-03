@@ -54,7 +54,7 @@ To run the application, use the following command:
 python main.py
 ```
 
-By default, the application will be available at `http://127.0.0.1:5000/`.
+By default, the application will be available at `http://127.0.0.1:55055/`.
 
 ## API Endpoints
 
