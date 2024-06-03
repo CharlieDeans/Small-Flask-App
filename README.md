@@ -60,21 +60,21 @@ By default, the application will be available at `http://127.0.0.1:55055/`.
 
 The application includes the following API endpoints:
 
-1. **GET /hello**
+1. **GET /getHelloWorld**
     - Description: Returns a "Hello, World!" message.
     - Example Response:
         ```json
         {
-            "message": "Hello, World!"
+            "msg": "Hello, World!"
         }
         ```
 
 2. **GET /goodbye**
-    - Description: Returns a "Goodbye, World!" message.
+    - Description: Takes in "text" (str) and returns it as a message.
     - Example Response:
         ```json
         {
-            "message": "Goodbye, World!"
+            "msg": text
         }
         ```
 
@@ -84,12 +84,11 @@ The application includes the following API endpoints:
 Small-Flask-App/
 │
 ├── templates/
-│   └── index.html
+│   └── page.html
 ├── .gitignore
 ├── README.md
 ├── main.py
-├── requirements.txt
-└── README.md
+└── requirements.txt
 ```
 
 - `templates/`: Directory containing HTML templates.
